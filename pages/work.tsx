@@ -21,10 +21,6 @@ export default function Work() {
                                 </h3>
                             </a>
                         </Link>
-                        <br />
-                        <small className={utilStyles.lightText}>
-                            <Date dateString="2020-01-01" />
-                        </small>
                     </li>
                 </ul>
             </section>

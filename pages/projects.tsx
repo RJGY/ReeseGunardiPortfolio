@@ -11,7 +11,7 @@ export default function Work() {
                 <title>Work</title>
             </Head>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Work</h2>
+                <h2 className={utilStyles.headingLg}>Projects</h2>
                 <ul className={utilStyles.list}>
                     <li className={utilStyles.listItem}>
                         <Link href="/work/1">
@@ -21,10 +21,7 @@ export default function Work() {
                                 </h3>
                             </a>
                         </Link>
-                        <br />
-                        <small className={utilStyles.lightText}>
-                            <Date dateString="2020-01-01" />
-                        </small>
+                        
                     </li>
                 </ul>
             </section>

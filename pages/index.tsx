@@ -23,6 +23,15 @@ export default function Home() {
           </Link>
         </li>
         <li className={utilStyles.listItem}>
+          <Link href="/about">
+            <a>
+              <h3>
+                About
+              </h3>
+            </a>
+          </Link>
+        </li>
+        <li className={utilStyles.listItem}>
           <Link href="/contact">
             <a>
               <h3>
