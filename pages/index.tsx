@@ -1,65 +1,110 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from 'components/layout'
-import utilStyles from 'styles/utils.module.css'
-import Link from 'next/link'
+import icon from 'images/icon.png'
+import PropTypes from 'prop-types'
 
-export default function Home() {
+const Home = props => {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Welcome to my website!</p>
-      </section>
-      <ul className={utilStyles.list}>
-        <li className={utilStyles.listItem}>
-          <Link href="/blog">
-            <a>
-              <h3>
-                Blog
-              </h3>
-            </a>
-          </Link>
-        </li>
-        <li className={utilStyles.listItem}>
-          <Link href="/about">
-            <a>
-              <h3>
+      <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+        <div className="logo">
+          <span className="icon">
+            <img src={icon.src} alt="" height="100%" width="100%"/>
+          </span>
+        </div>
+        <div className="content">
+          <div className="inner">
+            <h1>LiteTech</h1>
+            <p>
+              Welcome to the LiteTech Minecraft Server
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <button
+                className="transparent-button"
+                onClick={() => {
+                  props.onOpenArticle('about')
+                }}
+              >
                 About
-              </h3>
-            </a>
-          </Link>
-        </li>
-        <li className={utilStyles.listItem}>
-          <Link href="/contact">
-            <a>
-              <h3>
-                Contact
-              </h3>
-            </a>
-          </Link>
-        </li>
-        <li className={utilStyles.listItem}>
-          <Link href="/projects">
-            <a>
-              <h3>
-                Projects
-              </h3>
-            </a>
-          </Link>
-        </li>
-        <li className={utilStyles.listItem}>
-          <Link href="/work">
-            <a>
-              <h3>
-                Work
-              </h3>
-            </a>
-          </Link>
-        </li>
-      </ul>
+              </button>
+            </li>
+            <li>
+              <button
+                className="transparent-button"
+                onClick={() => {
+                  props.onOpenArticle('image')
+                }}
+              >
+                Images
+              </button>
+            </li>
+            <li>
+              <button
+                className="transparent-button"
+                onClick={() => {
+                  props.onOpenArticle('members')
+                }}
+              >
+                Members
+              </button>
+            </li>
+            <li>
+              <button
+                className="transparent-button"
+                onClick={() => {
+                  props.onOpenArticle('youtube')
+                }}
+              >
+                Youtube
+              </button>
+            </li>
+            <li>
+              <button
+                className="transparent-button"
+                onClick={() => {
+                  props.onOpenArticle('discord')
+                }}
+              >
+                Discord
+              </button>
+            </li>
+            <li>
+              <a href="https://panel.litete.ch/" target="_blank"  rel="noreferrer">
+                <button
+                  className="transparent-button"
+                  type="submit"
+                >
+                  Panel
+                </button>
+              </a>
+            </li>
+            <li>
+              <a href="https://archives.litete.ch/" target="_blank"  rel="noreferrer">
+                <button
+                  className="transparent-button"
+                  type="submit"
+                >
+                  Archive
+                </button>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
     </Layout>
   )
 }
 
+export default Home
+
+Home.propTypes = {
+  onOpenArticle: PropTypes.func,
+  timeout: PropTypes.bool,
+}
