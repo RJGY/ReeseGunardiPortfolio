@@ -3,8 +3,11 @@ import styles from './layout.module.css'
 import utilStyles from 'styles/utils.module.css'
 import Link from 'next/link'
 
+import TSParticles from './particles';
+
 const name = 'Reese Gunardi'
 export const siteTitle = 'Reese Gunardi - Developer Portfolio'
+
 
 export default function Layout({
   children,
@@ -15,6 +18,9 @@ export default function Layout({
 }) {
   return (
     <div className={styles.container}>
+      <div>
+        <TSParticles id="tsparticles"/>
+      </div>
       <Head>
         <link rel="icon" href="/angery-icon.ico" />
         <meta
