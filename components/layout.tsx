@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from 'styles/utils.module.css'
+import styles from 'styles/layout.module.css'
 import Link from 'next/link'
 
 import TSParticles from './particles';
 
-const name = 'Reese Gunardi'
 export const siteTitle = 'Reese Gunardi - Developer Portfolio'
 
 
@@ -36,21 +34,6 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        {home ? (
-          <>
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
