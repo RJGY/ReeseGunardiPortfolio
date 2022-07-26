@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import 'styles/global.css'
 import { AppProps } from 'next/app'
 import React from 'react';
+import 'bootstrap-5.0.2-dist/css/bootstrap.min.css';
 
 const MyApp = ({
   Component, 

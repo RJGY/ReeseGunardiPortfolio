@@ -7,4 +7,3 @@ A developer portfolio made in React, Next.js and Typescript.
  * More fonts
  * Gradient background.
  * Work in intro
- * Get bootstrap
