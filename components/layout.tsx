@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import styles from 'styles/layout.module.css'
 import Link from 'next/link'
-
 import TSParticles from './particles';
 
 export const siteTitle = 'Reese Gunardi - Developer Portfolio'
@@ -15,7 +13,7 @@ export default function Layout({
   home?: boolean
 }) {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <div>
         <TSParticles id="tsparticles"/>
       </div>
@@ -34,9 +32,9 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <main>{children}</main>
+      <main className="white">{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div>
           <Link href="/">
             <a>← Back to home</a>
           </Link>

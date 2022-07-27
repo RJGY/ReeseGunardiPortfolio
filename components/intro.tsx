@@ -1,14 +1,13 @@
-import utilStyles from 'styles/utils.module.css'
-
-
 // TODO: need formating for this section and fonts
 export default function Intro() {
     return (
         <>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <h2 className={utilStyles.headingLg}>Hi, I'm Reese Gunardi</h2>
-                <p className={utilStyles.text}>I am an aspiring backend developer with a passion for learning and building things. Currently, I work as an automation tester for the ASX.</p>
-            </section>
+            <div className="top-gap">
+                <section>
+                    <p className="fs-1">Hi, I'm <span className="font-monospace large-text d-block">Reese Gunardi</span></p>
+                    <p className="fs-4">I am an aspiring backend developer with a passion for learning and building things. Currently, I work as an automation tester for the ASX and develop small games and projects in my spare time.</p>
+                </section>
+            </div>
         </>
     )
 }
