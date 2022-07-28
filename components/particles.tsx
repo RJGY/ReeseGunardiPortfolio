@@ -12,6 +12,7 @@ const ParticlesComponent = (props) => {
         enable: true,
         zIndex: -1,
       },
+      fpsLimit: 60,
       particles: {
         move: {
           enable: true, // enabling this will make particles move in the canvas
@@ -19,6 +20,12 @@ const ParticlesComponent = (props) => {
         },
         opacity: {
           value: { min: 0.1, max: 0.8 }, // using a different opacity, to have some semitransparent effects
+          anim: {
+            enable: true,
+            speed: 1,
+            opacity_min: 0.1,
+            sync: false
+          }
         },
         size: {
           value: { min: 0.5, max: 3 }, // let's randomize the particles size a bit
