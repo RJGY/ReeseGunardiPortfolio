@@ -4,6 +4,9 @@ import Contact from 'components/contact'
 import Projects from 'components/projects'
 import About from 'components/about'
 import Intro from 'components/intro'
+import Work from 'components/work'
+import Header from 'components/header'
+import Footer from 'components/footer'
 
 
 export default function Home() {
@@ -12,10 +15,13 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Header />
       <Intro />
       <About />
       <Projects />
+      <Work />
       <Contact />
+      <Footer />
     </Layout>
   )
 }
