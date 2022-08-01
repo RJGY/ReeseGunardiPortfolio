@@ -2,12 +2,25 @@
 import Image from 'next/image'
 import ghosted from 'images/ghosted_thumbnail.png'
 import Link from 'next/link'
+import { Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default function Projects() {
     return (
         <>
             <div className="normal-gap">
                 <p className="fs-1">Projects</p>
+                <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
+                    <Image src={ghosted} className="card-img-top p-3" alt="Card" layout="responsive" />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
                 <div className="card w-45 m-2 p-1 bg-dark d-inline-flex" >
                     <Image src={ghosted} className="card-img-top p-3" alt="Card" layout="responsive" />
                     <div className="card-body">

@@ -4,9 +4,10 @@ A developer portfolio made in React, Next.js and Typescript.
 Uses Getform.io for email receipt and delivery for the Contact page.
 
 ## CI/CD:
-asdf
+Github actions 
 
-
+## Contact
+Stolen from timz.dev
 
 ## TODO
  * BETTER FONTS IMPORTANT, NEED THINNER FONT
@@ -24,3 +25,4 @@ asdf
  * add footer links to like linkedin and github
  * add image to about me
  * add notable work section to about me
+ * convert to react-bootstrap
