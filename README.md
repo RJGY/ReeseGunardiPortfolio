@@ -25,4 +25,6 @@ Stolen from timz.dev
  * add footer links to like linkedin and github
  * add image to about me
  * add notable work section to about me
- * convert to react-bootstrap
+ * work & education section is kinda gimped so i need to add perma space :deadpan:
+ * fix colors with work & education
+ * add font for navbar

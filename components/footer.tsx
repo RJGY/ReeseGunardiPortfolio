@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <>  
-            <div className="normal-gap">
+            <div className="footer">
                 <p className="fs-1">Footer</p>
             </div>
                     

@@ -11,17 +11,19 @@ import Footer from 'components/footer'
 
 export default function Home() {
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
+    <>
       <Header />
-      <Intro />
-      <About />
-      <Projects />
-      <Work />
-      <Contact />
+      <Layout home>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
+        <Intro />
+        <About />
+        <Projects />
+        <Work />
+        <Contact />
+      </Layout>
       <Footer />
-    </Layout>
+    </>
   )
 }

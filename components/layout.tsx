@@ -18,7 +18,7 @@ export default function Layout({
         <TSParticles id="tsparticles"/>
       </div>
       <Head>
-        <link rel="icon" href="/angery-icon.ico" />
+        <link rel="icon" href="/logo.png"/>
         <meta
           name="description"
           content="Reese Gunardi's personal website"
