@@ -28,7 +28,7 @@
 }
 
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   z-index: 999;
 }
@@ -38,3 +38,10 @@
   color: #fff;
 }
 
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link.active {
+  color: #000 !important;
+}

@@ -8,7 +8,7 @@ export default function Header() {
             <div className="header">
                 <nav className="navbar navbar-expand-lg dark-navbar">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#"><Image src={logo} height="60" width="60" layout="intrinsic" alt="Logo" /></a>
+                        <a className="navbar-brand ms-2" href="#"><Image src={logo} height="60" width="60" layout="intrinsic" alt="Logo" /></a>
                         <div className="navbar">
                             <ul className="navbar-nav .ms-auto">
                                 <li className="nav-item">
