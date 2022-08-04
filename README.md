@@ -14,9 +14,6 @@ Stolen from timz.dev
  * Work & education list like examples
  * Gradient background. Blue to black
  * Text colors in some shade in light blue/white/cyan/green
- * Work in intro
- * Automatic scrolling when press button
- * Scrolling goes only to one thingo
  * Change scrollbar
  * Better profile picture cause your one sucks 
  * On hover animations for cards
@@ -28,3 +25,4 @@ Stolen from timz.dev
  * work & education section is kinda gimped so i need to add perma space :deadpan:
  * fix colors with work & education
  * add font for navbar
+ * fix blue background work and education

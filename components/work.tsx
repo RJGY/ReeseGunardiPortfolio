@@ -6,7 +6,7 @@ export default function Work() {
             <p className="fs-1">Experience & Education</p>
             <Tabs
                 defaultActiveKey="work"
-                className="mb-3"
+                className="mb-3 fs-3"
                 transition={false}
             >
                 <Tab eventKey="work" title="Experience">
@@ -16,17 +16,17 @@ export default function Work() {
                                 <Nav variant="pills" className="flex-column">
                                     <Nav.Item>
                                         <Nav.Link eventKey="first">
-                                            <p className="m-1 white">ASX & Ampion</p>
+                                            <p className="m-1 fs-4">ASX & Ampion</p>
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link eventKey="second">
-                                            <p className="m-1 white">Global Imaging</p>
+                                            <p className="m-1 fs-4">Global Imaging</p>
                                         </Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item>
                                         <Nav.Link eventKey="third">
-                                            <p className="m-1 white">Foxtel</p>
+                                            <p className="m-1 fs-4">Foxtel</p>
                                         </Nav.Link>
                                     </Nav.Item>
                                 </Nav>
@@ -34,8 +34,8 @@ export default function Work() {
                             <Col sm={9}>
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
-                                        <p>Test Automation Engineer & Junior Developer</p>
-                                        <p>My current workplace. I create automated tests in Java and Spring Boot with Gherkin feature files to test other microservices. I also worked as a junior developer where I developed new microservices. </p>
+                                        <p className="fs-3">Test Automation Engineer & Junior Developer</p>
+                                        <p className="fs-5">My current workplace. I create automated tests in Java and Spring Boot with Gherkin feature files to test other microservices. I also worked as a junior developer where I developed new microservices. </p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
                                         <p>Admin</p>
@@ -57,17 +57,17 @@ export default function Work() {
                             <Nav variant="pills" className="flex-column">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">
-                                        <p className="m-1 white">Central Queensland University</p>
+                                        <p className="m-1 fs-4">Central Queensland University</p>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">
-                                        <p className="m-1 white">St Leonards Tafe</p>
+                                        <p className="m-1 fs-4">St Leonards Tafe</p>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="third">
-                                        <p className="m-1 white">Ryde Secondary College</p>
+                                        <p className="m-1 fs-4">Ryde Secondary College</p>
                                     </Nav.Link>
                                 </Nav.Item>
                             </Nav>

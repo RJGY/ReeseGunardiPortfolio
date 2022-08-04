@@ -13,7 +13,7 @@ export default function Projects() {
             <div className="normal-gap">
                 <p className="fs-1">Projects</p>
                 <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
-                    <Image src={ghosted} className="p-3 rounded" alt="Card"/>
+                    <Image src={ghosted} className="p-3 small-curve" alt="Card"/>
                     <Card.Body>
                         <Card.Title>Ghosted</Card.Title>
                         <Card.Text>
@@ -25,7 +25,7 @@ export default function Projects() {
                 </Card>
 
                 <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
-                    <Image src={litetech} className="card-img-top p-3" alt="Card" layout="responsive" />
+                    <Image src={litetech} className="p-3 small-curve" alt="Card" layout="responsive" />
                     <Card.Body>
                         <Card.Title>Litete.ch</Card.Title>
                         <Card.Text>
@@ -37,7 +37,7 @@ export default function Projects() {
                 </Card>
 
                 <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
-                    <Image src={discordplex} className="card-img-top p-3" alt="Card" layout="responsive" />
+                    <Image src={discordplex} className="p-3 small-curve" alt="Card" layout="responsive" />
                     <Card.Body>
                         <Card.Title>Discord Plex Server Manager</Card.Title>
                         <Card.Text>
@@ -48,7 +48,7 @@ export default function Projects() {
                 </Card>
 
                 <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
-                    <Image src={lolaccount} className="card-img-top p-3" alt="Card" layout="responsive" />
+                    <Image src={lolaccount} className="p-3 small-curve" alt="Card" layout="responsive" />
                     <Card.Body>
                         <Card.Title>League of Legends Account Manager</Card.Title>
                         <Card.Text>

@@ -15,7 +15,7 @@ export default function About() {
                         </p>
                     </Col>
                     <Col sm={4}>
-                        <Image src={profile} className="p-3 rounded" alt="Profile"/>
+                        <Image src={profile} className="p-3 curved-border" alt="Profile"/>
                     </Col>
                 </Row>
             </div>

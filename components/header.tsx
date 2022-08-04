@@ -24,7 +24,7 @@ export default function Header() {
                                     <a className="nav-link text-light fs-4 m-1" href="#">Contact</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-light fs-4 p-1 m-1" href="#">
+                                    <a className="nav-link text-light fs-4 p-1 m-1" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                                         <Button variant="outline-light" size="lg">
                                             Resume
                                         </Button>

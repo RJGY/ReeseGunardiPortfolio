@@ -28,7 +28,7 @@
 }
 
 .footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   z-index: 999;
 }
@@ -38,10 +38,37 @@
   color: #fff;
 }
 
-.nav-link {
-  color: #fff !important;
+button.nav-link {
+  color: #fff;
 }
 
-.nav-link.active {
-  color: #000 !important;
+button.nav-link:hover {
+  color: #fff;
+}
+
+button.nav-link.active {
+  color: #000;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  color: #000;
+  background-color: #fff;
+}
+
+.nav-pills .nav-item .nav-link {
+  color: #fff;
+  border: 1px solid rgba(0,0,0,0);
+  margin: 0.2em;
+}
+
+.nav-pills .nav-item a.nav-link:hover {
+  border: 1px solid #fff;
+}
+
+.curved-border {
+  border-radius: 10%;
+}
+
+.small-curve {
+  border-radius: 25px;
 }
