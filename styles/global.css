@@ -28,7 +28,7 @@
 }
 
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   z-index: 999;
 }
@@ -70,5 +70,19 @@ button.nav-link.active {
 }
 
 .small-curve {
-  border-radius: 25px;
+  border-radius: 2em;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -15em;
+  visibility: hidden;
+}
+
+a.projects-anchor {
+  display: block;
+  position: relative;
+  top: -5em;
+  visibility: hidden;
 }

@@ -12,16 +12,16 @@ export default function Header() {
                         <div className="navbar">
                             <ul className="navbar-nav .ms-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link text-light fs-4 m-1" href="#">About</a>
+                                    <a className="nav-link text-light fs-4 m-1" href="#about">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-light fs-4 m-1" href="#">Projects</a>
+                                    <a className="nav-link text-light fs-4 m-1" href="#projects">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-light fs-4 m-1" href="#">Work</a>
+                                    <a className="nav-link text-light fs-4 m-1" href="#work">Work</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-light fs-4 m-1" href="#">Contact</a>
+                                    <a className="nav-link text-light fs-4 m-1" href="#contact">Contact</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link text-light fs-4 p-1 m-1" href="/resume.pdf" target="_blank" rel="noopener noreferrer">

@@ -11,6 +11,7 @@ export default function Projects() {
     return (
         <>
             <div className="normal-gap">
+                <a className="projects-anchor" id="projects"></a>
                 <p className="fs-1">Projects</p>
                 <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
                     <Image src={ghosted} className="p-3 small-curve" alt="Card"/>

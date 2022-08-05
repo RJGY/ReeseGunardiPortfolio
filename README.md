@@ -26,3 +26,4 @@ Stolen from timz.dev
  * fix colors with work & education
  * add font for navbar
  * fix blue background work and education
+ * make size of experience and education constant
