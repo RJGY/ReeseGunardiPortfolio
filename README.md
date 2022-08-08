@@ -18,7 +18,6 @@ Stolen from timz.dev
  * Better profile picture cause your one sucks 
  * On hover animations for cards
  * Add tyms contact form to contact
- * add header resume link and links to autoscroll to other sections
  * add footer links to like linkedin and github
  * add image to about me
  * add notable work section to about me
