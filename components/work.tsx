@@ -4,7 +4,7 @@ export default function Work() {
     return (
         <>
             <div className="normal-gap">
-            <a className="anchor" id="work"></a>
+            <a className="work-anchor" id="work"></a>
                 <p className="fs-1">Experience & Education</p>
                 <Tabs
                     defaultActiveKey="work"

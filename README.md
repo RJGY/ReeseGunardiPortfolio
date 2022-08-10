@@ -26,3 +26,6 @@ Stolen from timz.dev
  * add font for navbar
  * fix blue background work and education
  * make size of experience and education constant
+ * Add oauth2 to contact so that we dont get spammed
+ * remove space in contactme
+ 

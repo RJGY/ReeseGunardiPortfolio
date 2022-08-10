@@ -6,7 +6,7 @@ export default function About() {
     return (
         <>
             <div className="normal-gap">
-                <a className="anchor" id="about"></a>
+                <a className="about-anchor" id="about"></a>
                 <Row>
                     <Col sm={8}>
                         <p className="fs-1">Who am I?</p>

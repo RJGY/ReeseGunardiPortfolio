@@ -20,6 +20,11 @@
   margin-bottom: 25em
 }
 
+.bottom-gap {
+  margin-top: 25em;
+  margin-bottom: 18em;
+}
+
 
 .header {
   position: sticky;
@@ -73,10 +78,17 @@ button.nav-link.active {
   border-radius: 2em;
 }
 
-a.anchor {
+a.about-anchor {
   display: block;
   position: relative;
-  top: -15em;
+  top: -20em;
+  visibility: hidden;
+}
+
+a.work-anchor {
+  display: block;
+  position: relative;
+  top: -18em;
   visibility: hidden;
 }
 
@@ -85,4 +97,9 @@ a.projects-anchor {
   position: relative;
   top: -5em;
   visibility: hidden;
+}
+
+.footer-text {
+  writing-mode: vertical-rl;
+  color: #fff;
 }
