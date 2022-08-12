@@ -18,3 +18,4 @@ Stolen from timz.dev
 * make size of experience and education constant
 * Add oauth2 to contact so that we dont get spammed
 * Mobile responsive when???
+* change preview from the default next page to the webpage
