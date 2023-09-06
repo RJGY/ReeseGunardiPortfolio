@@ -31,7 +31,7 @@ const ParticlesComponent = (props) => {
           value: { min: 0.5, max: 3 }, 
         },
         number: {
-          value: 400,
+          value: 401,
         }
       },
     };

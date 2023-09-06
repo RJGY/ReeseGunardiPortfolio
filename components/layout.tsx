@@ -21,7 +21,7 @@ export default function Layout({
         <link rel="icon" href="/logo.png"/>
         <meta
           name="description"
-          content="Reese Gunardi's personal website"
+          content="Reese Gunardi's Personal Developer Portfolio Website"
         />
         <meta
           property="og:image"

@@ -16,18 +16,23 @@ export default function Work() {
                             <Row>
                                 <Col sm={3}>
                                     <Nav variant="pills" className="flex-column">
-                                        <Nav.Item>
+                                    <Nav.Item>
                                             <Nav.Link eventKey="first">
-                                                <p className="m-1 fs-4">ASX & Ampion</p>
+                                                <p className="m-1 fs-4">Objective Corporation</p>
                                             </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
                                             <Nav.Link eventKey="second">
-                                                <p className="m-1 fs-4">Global Imaging</p>
+                                                <p className="m-1 fs-4">ASX & Ampion</p>
                                             </Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
                                             <Nav.Link eventKey="third">
+                                                <p className="m-1 fs-4">Global Imaging</p>
+                                            </Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey="forth">
                                                 <p className="m-1 fs-4">Foxtel</p>
                                             </Nav.Link>
                                         </Nav.Item>
@@ -36,14 +41,18 @@ export default function Work() {
                                 <Col sm={9}>
                                     <Tab.Content>
                                         <Tab.Pane eventKey="first">
-                                            <p className="fs-3">Test Automation Engineer & Junior Developer</p>
-                                            <p className="fs-5">My current workplace. I work in a team of over 20 people to create automated tests in Java with Spring Boot with Gherkin feature files which test the functional and performance capabilities of mutliple systems. I also worked as a junior developer where I developed new microservices which report the transactions which occur on the Australian Share Market. I also develop inhouse tools such as our testing framework and mapping document register.</p>
+                                            <p className="fs-3">Fullstack Software Engineer</p>
+                                            <p className="fs-5">My current workplace. I work as a full stack engineer on the Objective Keystone team which is a web application. For the backend, I am tasked with creating the API endpoints as well as the architecture of the system. For the frontend, I am tasked with creating the modals and webpages which interacts with the API.</p>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="second">
+                                            <p className="fs-3">Test Automation Engineer & Junior Developer</p>
+                                            <p className="fs-5">Created automated tests in Java with Spring Boot with Gherkin feature files which test the functional and performance capabilities of mutliple systems. I also worked part time as a junior developer where I developed new microservices which report the transactions which occur on the Australian Share Market. I also develop inhouse tools such as our testing framework and mapping document register which displays the relationship of all the microservices and how they interact with each other.</p>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey="third">
                                             <p className="fs-3">Office & Admin Support</p>
                                             <p className="fs-5">Performed basic maintenance of work equipment including photography and computer equipment. I also helped manage the inventory of equipment and cleaned the workplace.</p>
                                         </Tab.Pane>
-                                        <Tab.Pane eventKey="third">
+                                        <Tab.Pane eventKey="forth">
                                             <p className="fs-3">Contracted Support</p>
                                             <p className="fs-5">Organised preperation for equipment upgrades and assisted in workstation upgrade and set-up.</p>
                                         </Tab.Pane>
