@@ -98,3 +98,7 @@ a.projects-anchor {
   top: -5em;
   visibility: hidden;
 }
+
+div.card-text {
+  color: #fff;
+}

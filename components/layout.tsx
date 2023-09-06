@@ -35,7 +35,7 @@ export default function Layout({
       <main className="white">{children}</main>
       {!home && (
         <div>
-          <Link href="/">
+          <Link legacyBehavior href="/">
             <a>← Back to home</a>
           </Link>
         </div>
