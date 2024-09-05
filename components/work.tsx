@@ -42,7 +42,7 @@ export default function Work() {
                                     <Tab.Content>
                                         <Tab.Pane eventKey="first">
                                             <p className="fs-3">Fullstack Software Engineer</p>
-                                            <p className="fs-5">My current workplace. I work as a full stack engineer on the Objective Keystone team which is a web application. For the backend, I am tasked with creating the API endpoints as well as the architecture of the system. For the frontend, I am tasked with creating the modals and webpages which interacts with the API.</p>
+                                            <p className="fs-5">I work as a full stack engineer on the Objective Keystone team which is developing an ever evolving web application which is used by thousands of customers. For the backend, I am tasked with creating the API endpoints as well as the architecture of the system. For the frontend, I am tasked with creating the modals and webpages which interacts with the API.</p>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="second">
                                             <p className="fs-3">Test Automation Engineer & Junior Developer</p>

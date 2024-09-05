@@ -40,11 +40,11 @@ export default function Projects() {
                 <Card className="w-45 m-2 p-1 d-inline-flex" bg="dark">
                     <Image src={discordplex} className="p-3 small-curve" alt="Card" layout="responsive" />
                     <Card.Body className="card-text">
-                        <Card.Title>Discord Plex Server Manager</Card.Title>
+                        <Card.Title>Plex Media Manager</Card.Title>
                         <Card.Text>
                             Discord bot made with Python which uses a webscraper to browse torrents and YouTube to download music and videos into a Plex server.
                         </Card.Text>
-                        <Link href="https://github.com/RJGY/DiscordSongDownloader" className="btn btn-secondary m-1">Github</Link>
+                        <Link href="https://github.com/RJGY/PlexMediaManager" className="btn btn-secondary m-1">Github</Link>
                     </Card.Body>
                 </Card>
 

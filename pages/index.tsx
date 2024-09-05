@@ -16,6 +16,7 @@ export default function Home() {
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
+          <script src="https://www.google.com/recaptcha/api.js?render=6LeJON8ZAAAAAOIhyFh7HL-EkTis9PHcZYQNPGXT"></script>
         </Head>
         <Intro />
         <About />
