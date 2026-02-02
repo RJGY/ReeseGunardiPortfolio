@@ -10,7 +10,7 @@
     "date-fns": "^2.11.1",
     "eslint-config-next": "^13.4.19",
     "gray-matter": "^4.0.2",
-    "next": "^14.2.8",
+    "next": "14.2.35",
     "prop-types": "^15.8.1",
     "proptypes": "^1.1.0",
     "react": "^18.2.0",
